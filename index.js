@@ -13,7 +13,7 @@ app.use(cors({
     }
   }
 }));
-app.use(express.json());ss
+app.use(express.json()); 
 
 let items = [];
 let idCounter = 1;
